@@ -1,0 +1,32 @@
+<div class="task-container">
+    <h3>Hi Michael Hansen</h3>
+  
+    <div class="row">
+      <label>Tasks</label>
+    </div>
+  
+      <div class="optionList">
+        <label>Showing</label>
+        <select>
+          <option *ngFor="let card of cards" [value]="card">{{card.text}}</option>
+        </select>
+      </div>
+  
+    
+  
+    <app-card-item *ngFor="let card of cards" [card]="card"></app-card-item>
+  
+    <div class="picture-container">
+      <img src="/assets/logo/Card-logo.svg" />
+      <label class="titel">Ask a question</label>
+      <p class="text">Unlocks in 2 days</p>
+    </div>
+  
+  </div>
+  
+  <!-- <select name="options" id="#">
+        <option selected="selected" value="task">Task</option>
+        <option value="Locked">Locked</option>
+        <option value="Pending">Pending</option>
+        <option value="completed">Completed</option>
+      </select> -->

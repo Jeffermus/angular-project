@@ -1,0 +1,15 @@
+.card {
+    background: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+/* .card h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* Firstly you need devide the component into 2. 
+One called CardListComponent that displays a list of CardComponents.
+Right now you are asking for a list of cards inside the CardComponent that should only display one card. */

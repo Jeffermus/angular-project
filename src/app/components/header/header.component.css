@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #ffffff;
+    font-family: Circular Std Book;
+    font-size: 30x;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    justify-content: space-between;
+    
+  }
