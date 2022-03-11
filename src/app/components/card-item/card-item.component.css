@@ -10,6 +10,3 @@
     justify-content: space-between;
 } */
 
-/* Firstly you need devide the component into 2. 
-One called CardListComponent that displays a list of CardComponents.
-Right now you are asking for a list of cards inside the CardComponent that should only display one card. */
